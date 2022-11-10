@@ -1,0 +1,48 @@
+<head>
+    <title>ola
+    
+    </title>
+</head>
+<body>
+<h1>FRUTAS</h1>
+<p id="p1"></p>
+<h4 >Minha Segunda Fruta Favorita É </h4><h4 id="h4.1"></h4>
+<p id="p2"></p>
+<h2 id="h2.1"></h2>
+<script>
+    var F = ["pessego","manga","morango"];
+    document.getElementById("p1").innerHTML=F;
+    var SF = F[1];
+    document.getElementById("h4.1").innerHTML=SF;
+    var CL = F.length;
+    document.getElementById("p2").innerHTML=CL;
+    var A = "";
+    for (i = 0; i<CL; i++){
+        console.log(F[i]);
+        var A = A+F[i]+"<br>";
+        document.getElementById("h2.1").innerHTML=A;
+    }
+    
+    /*console.log("oi eu sou o console");
+    var PN = "Rafael";
+    console.log(PN);
+    var S = "Nakao";
+    console.log(S);
+    var NT = PN.concat(S);
+    console.log(NT);
+    var C = NT.length;
+    console.log(C);
+    var Subs = NT.replace("Nakao","Rodrigues");
+    console.log(Subs);
+    var MIN = NT.toLowerCase();
+    console.log(MIN);
+    var M = NT.toUpperCase();
+    console.log(M);
+    var NM = Math.max(1342535,123);
+    console.log(NM);
+    var NMIN = Math.min(534636,6577);
+    console.log(NMIN);
+    var RQ = Math.sqrt(12435462756356);
+    console.log(RQ);*/
+    </script>
+</body>
